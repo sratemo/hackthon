@@ -278,10 +278,9 @@ Otherwise there would be a small black line. */
 }
 
 .event-title {
-  font-size: 14px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  font-size: 14px; 
+  overflow-wrap: break-word;
+ 
 }
 
 .declined {
